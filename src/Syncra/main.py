@@ -38,10 +38,10 @@ def resource_path(relative_path):
 def initialize_config():
     if not os.path.exists(CONFIG_FILE):
         default_config = {
-            "plex_username": "",
-            "server_ip": "127.0.0.1",
+            "plex_username": "mutanthost",
+            "server_ip": "192.168.1.81",
             "server_port": "32400",
-            "token": "",
+            "token": "DxyhdH9ExTa7gFs3QmwM",
             "last_section": None
         }
         try:
