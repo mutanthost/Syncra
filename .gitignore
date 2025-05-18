@@ -69,7 +69,7 @@ instance/
 .scrapy
 
 #  hatchling output
-syncra*,tar.gz
+syncra*.tar.gz
 syncra*.whl
 
 
